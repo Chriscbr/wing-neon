@@ -1,0 +1,3180 @@
+{
+  "author": {
+    "name": "generated@generated.com",
+    "roles": [
+      "author"
+    ]
+  },
+  "dependencies": {
+    "cdktf": "0.16.2",
+    "constructs": "10.1.304"
+  },
+  "dependencyClosure": {
+    "cdktf": {
+      "submodules": {
+        "cdktf.testingMatchers": {}
+      },
+      "targets": {
+        "dotnet": {
+          "namespace": "HashiCorp.Cdktf",
+          "packageId": "HashiCorp.Cdktf"
+        },
+        "go": {
+          "moduleName": "github.com/hashicorp/terraform-cdk-go",
+          "packageName": "cdktf"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "cdktf",
+            "groupId": "com.hashicorp"
+          },
+          "package": "com.hashicorp.cdktf"
+        },
+        "js": {
+          "npm": "cdktf"
+        },
+        "python": {
+          "distName": "cdktf",
+          "module": "cdktf"
+        }
+      }
+    },
+    "constructs": {
+      "targets": {
+        "dotnet": {
+          "namespace": "Constructs",
+          "packageId": "Constructs"
+        },
+        "go": {
+          "moduleName": "github.com/aws/constructs-go"
+        },
+        "java": {
+          "maven": {
+            "artifactId": "constructs",
+            "groupId": "software.constructs"
+          },
+          "package": "software.constructs"
+        },
+        "js": {
+          "npm": "constructs"
+        },
+        "python": {
+          "distName": "constructs",
+          "module": "constructs"
+        }
+      }
+    }
+  },
+  "description": "neon",
+  "homepage": "http://generated",
+  "jsiiVersion": "5.0.10 (build fc3e189)",
+  "license": "UNLICENSED",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "neon",
+  "repository": {
+    "type": "git",
+    "url": "http://generated"
+  },
+  "schema": "jsii/0.10.0",
+  "submodules": {
+    "neon.branch": {
+      "locationInModule": {
+        "filename": "providers/neon/index.ts",
+        "line": 2
+      },
+      "readme": {
+        "markdown": "# `neon_branch`\n\nRefer to the Terraform Registory for docs: [`neon_branch`](https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch).\n"
+      },
+      "symbolId": "providers/neon/branch/index:"
+    },
+    "neon.database": {
+      "locationInModule": {
+        "filename": "providers/neon/index.ts",
+        "line": 3
+      },
+      "readme": {
+        "markdown": "# `neon_database`\n\nRefer to the Terraform Registory for docs: [`neon_database`](https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database).\n"
+      },
+      "symbolId": "providers/neon/database/index:"
+    },
+    "neon.endpoint": {
+      "locationInModule": {
+        "filename": "providers/neon/index.ts",
+        "line": 4
+      },
+      "readme": {
+        "markdown": "# `neon_endpoint`\n\nRefer to the Terraform Registory for docs: [`neon_endpoint`](https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint).\n"
+      },
+      "symbolId": "providers/neon/endpoint/index:"
+    },
+    "neon.project": {
+      "locationInModule": {
+        "filename": "providers/neon/index.ts",
+        "line": 5
+      },
+      "readme": {
+        "markdown": "# `neon_project`\n\nRefer to the Terraform Registory for docs: [`neon_project`](https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project).\n"
+      },
+      "symbolId": "providers/neon/project/index:"
+    },
+    "neon.provider": {
+      "locationInModule": {
+        "filename": "providers/neon/index.ts",
+        "line": 7
+      },
+      "readme": {
+        "markdown": "# `provider`\n\nRefer to the Terraform Registory for docs: [`neon`](https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs).\n"
+      },
+      "symbolId": "providers/neon/provider/index:"
+    },
+    "neon.role": {
+      "locationInModule": {
+        "filename": "providers/neon/index.ts",
+        "line": 6
+      },
+      "readme": {
+        "markdown": "# `neon_role`\n\nRefer to the Terraform Registory for docs: [`neon_role`](https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/role).\n"
+      },
+      "symbolId": "providers/neon/role/index:"
+    }
+  },
+  "targets": {
+    "js": {
+      "npm": "neon"
+    },
+    "python": {
+      "distName": "generated",
+      "module": "neon"
+    }
+  },
+  "types": {
+    "neon.branch.Branch": {
+      "assembly": "neon",
+      "base": "cdktf.TerraformResource",
+      "docs": {
+        "summary": "Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch neon_branch}."
+      },
+      "fqn": "neon.branch.Branch",
+      "initializer": {
+        "docs": {
+          "summary": "Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch neon_branch} Resource."
+        },
+        "locationInModule": {
+          "filename": "providers/neon/branch/index.ts",
+          "line": 217
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The scope in which to define this construct."
+            },
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "docs": {
+              "remarks": "Must be unique amongst siblings in the same scope",
+              "summary": "The scoped construct ID."
+            },
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "config",
+            "type": {
+              "fqn": "neon.branch.BranchConfig"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/branch/index.ts",
+        "line": 199
+      },
+      "methods": [
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 273
+          },
+          "name": "resetId"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 294
+          },
+          "name": "resetName"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 310
+          },
+          "name": "resetParentId"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 326
+          },
+          "name": "resetParentLsn"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 342
+          },
+          "name": "resetParentTimestamp"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 382
+          },
+          "name": "synthesizeAttributes",
+          "overrides": "cdktf.TerraformResource",
+          "protected": true,
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "any"
+                },
+                "kind": "map"
+              }
+            }
+          }
+        }
+      ],
+      "name": "Branch",
+      "namespace": "branch",
+      "properties": [
+        {
+          "const": true,
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 204
+          },
+          "name": "tfResourceType",
+          "static": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 245
+          },
+          "name": "createdAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 250
+          },
+          "name": "currentState",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 256
+          },
+          "name": "endpoint",
+          "type": {
+            "fqn": "neon.branch.BranchEndpointList"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 261
+          },
+          "name": "host",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 282
+          },
+          "name": "logicalSize",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 351
+          },
+          "name": "pendingState",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 356
+          },
+          "name": "physicalSizeSize",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 374
+          },
+          "name": "updatedAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 277
+          },
+          "name": "idInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 298
+          },
+          "name": "nameInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 314
+          },
+          "name": "parentIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 330
+          },
+          "name": "parentLsnInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 346
+          },
+          "name": "parentTimestampInput",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 369
+          },
+          "name": "projectIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 267
+          },
+          "name": "id",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 288
+          },
+          "name": "name",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 304
+          },
+          "name": "parentId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 320
+          },
+          "name": "parentLsn",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 336
+          },
+          "name": "parentTimestamp",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 362
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/branch/index:Branch"
+    },
+    "neon.branch.BranchConfig": {
+      "assembly": "neon",
+      "datatype": true,
+      "fqn": "neon.branch.BranchConfig",
+      "interfaces": [
+        "cdktf.TerraformMetaArguments"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "providers/neon/branch/index.ts",
+        "line": 9
+      },
+      "name": "BranchConfig",
+      "namespace": "branch",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch#project_id Branch#project_id}",
+            "summary": "Project ID."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 48
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.\nIf you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.",
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch#id Branch#id}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 16
+          },
+          "name": "id",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch#name Branch#name}",
+            "summary": "Branch name."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 22
+          },
+          "name": "name",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch#parent_id Branch#parent_id}",
+            "summary": "ID of the branch to checkout."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 28
+          },
+          "name": "parentId",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch#parent_lsn Branch#parent_lsn}",
+            "summary": "Log Sequence Number (LSN) horizon for the data to be present in the new branch. See details: https://neon.tech/docs/reference/glossary/#lsn."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 35
+          },
+          "name": "parentLsn",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/branch#parent_timestamp Branch#parent_timestamp}",
+            "summary": "Timestamp horizon for the data to be present in the new branch.  *Note**: it's defined as Unix epoch.'."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 42
+          },
+          "name": "parentTimestamp",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/branch/index:BranchConfig"
+    },
+    "neon.branch.BranchEndpoint": {
+      "assembly": "neon",
+      "datatype": true,
+      "fqn": "neon.branch.BranchEndpoint",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "providers/neon/branch/index.ts",
+        "line": 50
+      },
+      "name": "BranchEndpoint",
+      "namespace": "branch",
+      "symbolId": "providers/neon/branch/index:BranchEndpoint"
+    },
+    "neon.branch.BranchEndpointList": {
+      "assembly": "neon",
+      "base": "cdktf.ComplexList",
+      "fqn": "neon.branch.BranchEndpointList",
+      "initializer": {
+        "locationInModule": {
+          "filename": "providers/neon/branch/index.ts",
+          "line": 184
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The parent resource."
+            },
+            "name": "terraformResource",
+            "type": {
+              "fqn": "cdktf.IInterpolatingParent"
+            }
+          },
+          {
+            "docs": {
+              "summary": "The attribute on the parent resource this class is referencing."
+            },
+            "name": "terraformAttribute",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "docs": {
+              "summary": "whether the list is wrapping a set (will add tolist() to be able to access an item via an index)."
+            },
+            "name": "wrapsSet",
+            "type": {
+              "primitive": "boolean"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/branch/index.ts",
+        "line": 177
+      },
+      "methods": [
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 191
+          },
+          "name": "get",
+          "parameters": [
+            {
+              "docs": {
+                "summary": "the index of the item to return."
+              },
+              "name": "index",
+              "type": {
+                "primitive": "number"
+              }
+            }
+          ],
+          "returns": {
+            "type": {
+              "fqn": "neon.branch.BranchEndpointOutputReference"
+            }
+          }
+        }
+      ],
+      "name": "BranchEndpointList",
+      "namespace": "branch",
+      "properties": [
+        {
+          "docs": {
+            "summary": "The attribute on the parent resource this class is referencing."
+          },
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 184
+          },
+          "name": "terraformAttribute",
+          "overrides": "cdktf.ComplexList",
+          "protected": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "docs": {
+            "summary": "The parent resource."
+          },
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 184
+          },
+          "name": "terraformResource",
+          "overrides": "cdktf.ComplexList",
+          "protected": true,
+          "type": {
+            "fqn": "cdktf.IInterpolatingParent"
+          }
+        },
+        {
+          "docs": {
+            "summary": "whether the list is wrapping a set (will add tolist() to be able to access an item via an index)."
+          },
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 184
+          },
+          "name": "wrapsSet",
+          "overrides": "cdktf.ComplexList",
+          "protected": true,
+          "type": {
+            "primitive": "boolean"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/branch/index:BranchEndpointList"
+    },
+    "neon.branch.BranchEndpointOutputReference": {
+      "assembly": "neon",
+      "base": "cdktf.ComplexObject",
+      "fqn": "neon.branch.BranchEndpointOutputReference",
+      "initializer": {
+        "locationInModule": {
+          "filename": "providers/neon/branch/index.ts",
+          "line": 71
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The parent resource."
+            },
+            "name": "terraformResource",
+            "type": {
+              "fqn": "cdktf.IInterpolatingParent"
+            }
+          },
+          {
+            "docs": {
+              "summary": "The attribute on the parent resource this class is referencing."
+            },
+            "name": "terraformAttribute",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "docs": {
+              "summary": "the index of this item in the list."
+            },
+            "name": "complexObjectIndex",
+            "type": {
+              "primitive": "number"
+            }
+          },
+          {
+            "docs": {
+              "summary": "whether the list is wrapping a set (will add tolist() to be able to access an item via an index)."
+            },
+            "name": "complexObjectIsFromSet",
+            "type": {
+              "primitive": "boolean"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/branch/index.ts",
+        "line": 62
+      },
+      "name": "BranchEndpointOutputReference",
+      "namespace": "branch",
+      "properties": [
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 91
+          },
+          "name": "autoscalingLimitMaxCu",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 96
+          },
+          "name": "autoscalingLimitMinCu",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 101
+          },
+          "name": "branchId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 106
+          },
+          "name": "createdAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 111
+          },
+          "name": "currentState",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 116
+          },
+          "name": "disabled",
+          "type": {
+            "fqn": "cdktf.IResolvable"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 121
+          },
+          "name": "host",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 126
+          },
+          "name": "passwordlessAccess",
+          "type": {
+            "fqn": "cdktf.IResolvable"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 131
+          },
+          "name": "pendingState",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 137
+          },
+          "name": "pgSettings",
+          "type": {
+            "fqn": "cdktf.StringMap"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 142
+          },
+          "name": "poolerEnabled",
+          "type": {
+            "fqn": "cdktf.IResolvable"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 147
+          },
+          "name": "poolerMode",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 152
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 157
+          },
+          "name": "proxyHost",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 162
+          },
+          "name": "regionId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 167
+          },
+          "name": "type",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 172
+          },
+          "name": "updatedAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/branch/index.ts",
+            "line": 75
+          },
+          "name": "internalValue",
+          "optional": true,
+          "type": {
+            "fqn": "neon.branch.BranchEndpoint"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/branch/index:BranchEndpointOutputReference"
+    },
+    "neon.database.Database": {
+      "assembly": "neon",
+      "base": "cdktf.TerraformResource",
+      "docs": {
+        "summary": "Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database neon_database}."
+      },
+      "fqn": "neon.database.Database",
+      "initializer": {
+        "docs": {
+          "summary": "Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database neon_database} Resource."
+        },
+        "locationInModule": {
+          "filename": "providers/neon/database/index.ts",
+          "line": 64
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The scope in which to define this construct."
+            },
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "docs": {
+              "remarks": "Must be unique amongst siblings in the same scope",
+              "summary": "The scoped construct ID."
+            },
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "config",
+            "type": {
+              "fqn": "neon.database.DatabaseConfig"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/database/index.ts",
+        "line": 46
+      },
+      "methods": [
+        {
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 116
+          },
+          "name": "resetId"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 172
+          },
+          "name": "synthesizeAttributes",
+          "overrides": "cdktf.TerraformResource",
+          "protected": true,
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "any"
+                },
+                "kind": "map"
+              }
+            }
+          }
+        }
+      ],
+      "name": "Database",
+      "namespace": "database",
+      "properties": [
+        {
+          "const": true,
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 51
+          },
+          "name": "tfResourceType",
+          "static": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 104
+          },
+          "name": "createdAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 164
+          },
+          "name": "updatedAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 99
+          },
+          "name": "branchIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 120
+          },
+          "name": "idInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 133
+          },
+          "name": "nameInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 146
+          },
+          "name": "ownerNameInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 159
+          },
+          "name": "projectIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 92
+          },
+          "name": "branchId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 110
+          },
+          "name": "id",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 126
+          },
+          "name": "name",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 139
+          },
+          "name": "ownerName",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 152
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/database/index:Database"
+    },
+    "neon.database.DatabaseConfig": {
+      "assembly": "neon",
+      "datatype": true,
+      "fqn": "neon.database.DatabaseConfig",
+      "interfaces": [
+        "cdktf.TerraformMetaArguments"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "providers/neon/database/index.ts",
+        "line": 9
+      },
+      "name": "DatabaseConfig",
+      "namespace": "database",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database#branch_id Database#branch_id}",
+            "summary": "Branch ID."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 15
+          },
+          "name": "branchId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database#name Database#name}",
+            "summary": "Database name."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 28
+          },
+          "name": "name",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database#owner_name Database#owner_name}",
+            "summary": "Role name of the database owner."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 34
+          },
+          "name": "ownerName",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database#project_id Database#project_id}",
+            "summary": "Project ID."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 40
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.\nIf you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.",
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/database#id Database#id}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/database/index.ts",
+            "line": 22
+          },
+          "name": "id",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/database/index:DatabaseConfig"
+    },
+    "neon.endpoint.Endpoint": {
+      "assembly": "neon",
+      "base": "cdktf.TerraformResource",
+      "docs": {
+        "summary": "Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint neon_endpoint}."
+      },
+      "fqn": "neon.endpoint.Endpoint",
+      "initializer": {
+        "docs": {
+          "summary": "Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint neon_endpoint} Resource."
+        },
+        "locationInModule": {
+          "filename": "providers/neon/endpoint/index.ts",
+          "line": 102
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The scope in which to define this construct."
+            },
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "docs": {
+              "remarks": "Must be unique amongst siblings in the same scope",
+              "summary": "The scoped construct ID."
+            },
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "config",
+            "type": {
+              "fqn": "neon.endpoint.EndpointConfig"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/endpoint/index.ts",
+        "line": 84
+      },
+      "methods": [
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 143
+          },
+          "name": "resetAutoscalingLimitMaxCu"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 159
+          },
+          "name": "resetAutoscalingLimitMinCu"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 198
+          },
+          "name": "resetDisabled"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 219
+          },
+          "name": "resetId"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 235
+          },
+          "name": "resetPasswordlessAccess"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 256
+          },
+          "name": "resetPgSettings"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 272
+          },
+          "name": "resetPoolerEnabled"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 288
+          },
+          "name": "resetPoolerMode"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 322
+          },
+          "name": "resetRegionId"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 352
+          },
+          "name": "synthesizeAttributes",
+          "overrides": "cdktf.TerraformResource",
+          "protected": true,
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "any"
+                },
+                "kind": "map"
+              }
+            }
+          }
+        }
+      ],
+      "name": "Endpoint",
+      "namespace": "endpoint",
+      "properties": [
+        {
+          "const": true,
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 89
+          },
+          "name": "tfResourceType",
+          "static": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 181
+          },
+          "name": "createdAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 186
+          },
+          "name": "currentState",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 207
+          },
+          "name": "host",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 244
+          },
+          "name": "pendingState",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 310
+          },
+          "name": "proxyHost",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 344
+          },
+          "name": "updatedAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 147
+          },
+          "name": "autoscalingLimitMaxCuInput",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 163
+          },
+          "name": "autoscalingLimitMinCuInput",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 176
+          },
+          "name": "branchIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 202
+          },
+          "name": "disabledInput",
+          "optional": true,
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 223
+          },
+          "name": "idInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 239
+          },
+          "name": "passwordlessAccessInput",
+          "optional": true,
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 260
+          },
+          "name": "pgSettingsInput",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 276
+          },
+          "name": "poolerEnabledInput",
+          "optional": true,
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 292
+          },
+          "name": "poolerModeInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 305
+          },
+          "name": "projectIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 326
+          },
+          "name": "regionIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 339
+          },
+          "name": "typeInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 137
+          },
+          "name": "autoscalingLimitMaxCu",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 153
+          },
+          "name": "autoscalingLimitMinCu",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 169
+          },
+          "name": "branchId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 192
+          },
+          "name": "disabled",
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 213
+          },
+          "name": "id",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 229
+          },
+          "name": "passwordlessAccess",
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 250
+          },
+          "name": "pgSettings",
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 266
+          },
+          "name": "poolerEnabled",
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 282
+          },
+          "name": "poolerMode",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 298
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 316
+          },
+          "name": "regionId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 332
+          },
+          "name": "type",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/endpoint/index:Endpoint"
+    },
+    "neon.endpoint.EndpointConfig": {
+      "assembly": "neon",
+      "datatype": true,
+      "fqn": "neon.endpoint.EndpointConfig",
+      "interfaces": [
+        "cdktf.TerraformMetaArguments"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "providers/neon/endpoint/index.ts",
+        "line": 9
+      },
+      "name": "EndpointConfig",
+      "namespace": "endpoint",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#branch_id Endpoint#branch_id}",
+            "summary": "Branch ID."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 23
+          },
+          "name": "branchId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#project_id Endpoint#project_id}",
+            "summary": "Project ID."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 66
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#type Endpoint#type}",
+            "summary": "Access type. **Note** that \"read_write\" is the only supported type yet."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 78
+          },
+          "name": "type",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#autoscaling_limit_max_cu Endpoint#autoscaling_limit_max_cu}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 13
+          },
+          "name": "autoscalingLimitMaxCu",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#autoscaling_limit_min_cu Endpoint#autoscaling_limit_min_cu}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 17
+          },
+          "name": "autoscalingLimitMinCu",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#disabled Endpoint#disabled}",
+            "summary": "Disable the endpoint."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 29
+          },
+          "name": "disabled",
+          "optional": true,
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.\nIf you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.",
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#id Endpoint#id}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 36
+          },
+          "name": "id",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#passwordless_access Endpoint#passwordless_access}",
+            "summary": "Allow passwordless access."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 42
+          },
+          "name": "passwordlessAccess",
+          "optional": true,
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#pg_settings Endpoint#pg_settings}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 46
+          },
+          "name": "pgSettings",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#pooler_enabled Endpoint#pooler_enabled}",
+            "summary": "Activate connection pooling. See details: https://neon.tech/docs/connect/connection-pooling."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 53
+          },
+          "name": "poolerEnabled",
+          "optional": true,
+          "type": {
+            "union": {
+              "types": [
+                {
+                  "primitive": "boolean"
+                },
+                {
+                  "fqn": "cdktf.IResolvable"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#pooler_mode Endpoint#pooler_mode}",
+            "summary": "Mode of connections pooling. See details: https://neon.tech/docs/connect/connection-pooling."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 60
+          },
+          "name": "poolerMode",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/endpoint#region_id Endpoint#region_id}",
+            "summary": "AWS Region."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/endpoint/index.ts",
+            "line": 72
+          },
+          "name": "regionId",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/endpoint/index:EndpointConfig"
+    },
+    "neon.project.Project": {
+      "assembly": "neon",
+      "base": "cdktf.TerraformResource",
+      "docs": {
+        "summary": "Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project neon_project}."
+      },
+      "fqn": "neon.project.Project",
+      "initializer": {
+        "docs": {
+          "summary": "Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project neon_project} Resource."
+        },
+        "locationInModule": {
+          "filename": "providers/neon/project/index.ts",
+          "line": 69
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The scope in which to define this construct."
+            },
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "docs": {
+              "remarks": "Must be unique amongst siblings in the same scope",
+              "summary": "The scoped construct ID."
+            },
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "config",
+            "optional": true,
+            "type": {
+              "fqn": "neon.project.ProjectConfig"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/project/index.ts",
+        "line": 51
+      },
+      "methods": [
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 105
+          },
+          "name": "resetAutoscalingLimitMaxCu"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 121
+          },
+          "name": "resetAutoscalingLimitMinCu"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 147
+          },
+          "name": "resetCpuQuotaSec"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 193
+          },
+          "name": "resetName"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 209
+          },
+          "name": "resetPgSettings"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 225
+          },
+          "name": "resetPgVersion"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 241
+          },
+          "name": "resetRegionId"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 258
+          },
+          "name": "synthesizeAttributes",
+          "overrides": "cdktf.TerraformResource",
+          "protected": true,
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "any"
+                },
+                "kind": "map"
+              }
+            }
+          }
+        }
+      ],
+      "name": "Project",
+      "namespace": "project",
+      "properties": [
+        {
+          "const": true,
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 56
+          },
+          "name": "tfResourceType",
+          "static": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 130
+          },
+          "name": "branchLogicalSizeLimit",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 135
+          },
+          "name": "connectionUri",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 156
+          },
+          "name": "createdAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 161
+          },
+          "name": "databaseHost",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 166
+          },
+          "name": "databaseName",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 171
+          },
+          "name": "databasePassword",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 176
+          },
+          "name": "databaseUser",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 181
+          },
+          "name": "id",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 250
+          },
+          "name": "updatedAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 109
+          },
+          "name": "autoscalingLimitMaxCuInput",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 125
+          },
+          "name": "autoscalingLimitMinCuInput",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 151
+          },
+          "name": "cpuQuotaSecInput",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 197
+          },
+          "name": "nameInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 213
+          },
+          "name": "pgSettingsInput",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 229
+          },
+          "name": "pgVersionInput",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 245
+          },
+          "name": "regionIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 99
+          },
+          "name": "autoscalingLimitMaxCu",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 115
+          },
+          "name": "autoscalingLimitMinCu",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 141
+          },
+          "name": "cpuQuotaSec",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 187
+          },
+          "name": "name",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 203
+          },
+          "name": "pgSettings",
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 219
+          },
+          "name": "pgVersion",
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 235
+          },
+          "name": "regionId",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/project/index:Project"
+    },
+    "neon.project.ProjectConfig": {
+      "assembly": "neon",
+      "datatype": true,
+      "fqn": "neon.project.ProjectConfig",
+      "interfaces": [
+        "cdktf.TerraformMetaArguments"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "providers/neon/project/index.ts",
+        "line": 9
+      },
+      "name": "ProjectConfig",
+      "namespace": "project",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project#autoscaling_limit_max_cu Project#autoscaling_limit_max_cu}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 13
+          },
+          "name": "autoscalingLimitMaxCu",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project#autoscaling_limit_min_cu Project#autoscaling_limit_min_cu}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 17
+          },
+          "name": "autoscalingLimitMinCu",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project#cpu_quota_sec Project#cpu_quota_sec}",
+            "summary": "Total amount of CPU seconds that is allowed to be spent by the endpoints of that project."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 23
+          },
+          "name": "cpuQuotaSec",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project#name Project#name}",
+            "summary": "Project name."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 29
+          },
+          "name": "name",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project#pg_settings Project#pg_settings}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 33
+          },
+          "name": "pgSettings",
+          "optional": true,
+          "type": {
+            "collection": {
+              "elementtype": {
+                "primitive": "string"
+              },
+              "kind": "map"
+            }
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project#pg_version Project#pg_version}",
+            "summary": "Postgres version."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 39
+          },
+          "name": "pgVersion",
+          "optional": true,
+          "type": {
+            "primitive": "number"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/project#region_id Project#region_id}",
+            "summary": "AWS Region."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/project/index.ts",
+            "line": 45
+          },
+          "name": "regionId",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/project/index:ProjectConfig"
+    },
+    "neon.provider.NeonProvider": {
+      "assembly": "neon",
+      "base": "cdktf.TerraformProvider",
+      "docs": {
+        "summary": "Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs neon}."
+      },
+      "fqn": "neon.provider.NeonProvider",
+      "initializer": {
+        "docs": {
+          "summary": "Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs neon} Resource."
+        },
+        "locationInModule": {
+          "filename": "providers/neon/provider/index.ts",
+          "line": 45
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The scope in which to define this construct."
+            },
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "docs": {
+              "remarks": "Must be unique amongst siblings in the same scope",
+              "summary": "The scoped construct ID."
+            },
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "config",
+            "optional": true,
+            "type": {
+              "fqn": "neon.provider.NeonProviderConfig"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/provider/index.ts",
+        "line": 27
+      },
+      "methods": [
+        {
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 86
+          },
+          "name": "resetAlias"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 70
+          },
+          "name": "resetApiKey"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 98
+          },
+          "name": "synthesizeAttributes",
+          "overrides": "cdktf.TerraformProvider",
+          "protected": true,
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "any"
+                },
+                "kind": "map"
+              }
+            }
+          }
+        }
+      ],
+      "name": "NeonProvider",
+      "namespace": "provider",
+      "properties": [
+        {
+          "const": true,
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 32
+          },
+          "name": "tfResourceType",
+          "static": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 90
+          },
+          "name": "aliasInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 74
+          },
+          "name": "apiKeyInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 80
+          },
+          "name": "alias",
+          "optional": true,
+          "overrides": "cdktf.TerraformProvider",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 64
+          },
+          "name": "apiKey",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/provider/index:NeonProvider"
+    },
+    "neon.provider.NeonProviderConfig": {
+      "assembly": "neon",
+      "datatype": true,
+      "fqn": "neon.provider.NeonProviderConfig",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "providers/neon/provider/index.ts",
+        "line": 9
+      },
+      "name": "NeonProviderConfig",
+      "namespace": "provider",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs#alias NeonProvider#alias}",
+            "summary": "Alias name."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 21
+          },
+          "name": "alias",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs#api_key NeonProvider#api_key}",
+            "summary": "API access key. Default is read from the environment variable `NEON_API_KEY`."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/provider/index.ts",
+            "line": 15
+          },
+          "name": "apiKey",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/provider/index:NeonProviderConfig"
+    },
+    "neon.role.Role": {
+      "assembly": "neon",
+      "base": "cdktf.TerraformResource",
+      "docs": {
+        "summary": "Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/role neon_role}."
+      },
+      "fqn": "neon.role.Role",
+      "initializer": {
+        "docs": {
+          "summary": "Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/role neon_role} Resource."
+        },
+        "locationInModule": {
+          "filename": "providers/neon/role/index.ts",
+          "line": 58
+        },
+        "parameters": [
+          {
+            "docs": {
+              "summary": "The scope in which to define this construct."
+            },
+            "name": "scope",
+            "type": {
+              "fqn": "constructs.Construct"
+            }
+          },
+          {
+            "docs": {
+              "remarks": "Must be unique amongst siblings in the same scope",
+              "summary": "The scoped construct ID."
+            },
+            "name": "id",
+            "type": {
+              "primitive": "string"
+            }
+          },
+          {
+            "name": "config",
+            "type": {
+              "fqn": "neon.role.RoleConfig"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "providers/neon/role/index.ts",
+        "line": 40
+      },
+      "methods": [
+        {
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 109
+          },
+          "name": "resetId"
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 162
+          },
+          "name": "synthesizeAttributes",
+          "overrides": "cdktf.TerraformResource",
+          "protected": true,
+          "returns": {
+            "type": {
+              "collection": {
+                "elementtype": {
+                  "primitive": "any"
+                },
+                "kind": "map"
+              }
+            }
+          }
+        }
+      ],
+      "name": "Role",
+      "namespace": "role",
+      "properties": [
+        {
+          "const": true,
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 45
+          },
+          "name": "tfResourceType",
+          "static": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 97
+          },
+          "name": "createdAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 131
+          },
+          "name": "password",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 149
+          },
+          "name": "protected",
+          "type": {
+            "fqn": "cdktf.IResolvable"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 154
+          },
+          "name": "updatedAt",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 92
+          },
+          "name": "branchIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 113
+          },
+          "name": "idInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 126
+          },
+          "name": "nameInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 144
+          },
+          "name": "projectIdInput",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 85
+          },
+          "name": "branchId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 103
+          },
+          "name": "id",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 119
+          },
+          "name": "name",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 137
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/role/index:Role"
+    },
+    "neon.role.RoleConfig": {
+      "assembly": "neon",
+      "datatype": true,
+      "fqn": "neon.role.RoleConfig",
+      "interfaces": [
+        "cdktf.TerraformMetaArguments"
+      ],
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "providers/neon/role/index.ts",
+        "line": 9
+      },
+      "name": "RoleConfig",
+      "namespace": "role",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/role#branch_id Role#branch_id}",
+            "summary": "Branch ID."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 15
+          },
+          "name": "branchId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/role#name Role#name}",
+            "summary": "Role name."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 28
+          },
+          "name": "name",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/role#project_id Role#project_id}",
+            "summary": "Project ID."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 34
+          },
+          "name": "projectId",
+          "type": {
+            "primitive": "string"
+          }
+        },
+        {
+          "abstract": true,
+          "docs": {
+            "remarks": "Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.\nIf you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.",
+            "summary": "Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.1.0/docs/resources/role#id Role#id}."
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "providers/neon/role/index.ts",
+            "line": 22
+          },
+          "name": "id",
+          "optional": true,
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "providers/neon/role/index:RoleConfig"
+    }
+  },
+  "version": "0.0.0",
+  "fingerprint": "9DXmHWZDU+jfLNiiy2gScLMXPvx38O9QsQ2H+G6kfVk="
+}
